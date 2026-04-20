@@ -103,7 +103,9 @@ nav a:hover {
 }
 
 /* BODY CONTENT */
+
 .wrapper {
+  min-height: 100vh;
   max-width: 960px;
   margin: 0 auto;
   background-color: white;
@@ -120,7 +122,9 @@ main {
   font-size: 125%;
   line-height: 1.4;
 }
-
+.introduction li{
+  margin-left: 1.5rem;
+}
 .card {
   background-color: rgb(232, 245, 232);
   border: 1px solid rgb(195, 217, 195);
@@ -139,6 +143,14 @@ main {
   grid-gap: 1.5rem;
 }
 
+.get-connected{
+  background-color: rgb(232, 245, 232);
+  border: 1px solid rgb(195, 217, 195);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 .group-grid img {
   max-width: fit-content;
   max-height: 150px;
@@ -151,6 +163,11 @@ main {
 .group-grid li {
   margin-bottom: 1em;
   margin-left: 1em;
+}
+
+.FB-image {
+  max-width: 300px;
+  max-height: fit-content;
 }
 
 /* MEDIA SECTION */
